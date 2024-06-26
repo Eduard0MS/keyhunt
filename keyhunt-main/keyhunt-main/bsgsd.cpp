@@ -346,7 +346,7 @@ int main(int argc, char **argv)	{
 	IP = (char*)ip_default;
 	
 	
-	printf("[+] Version %s, developed by AlbertoBSD\n",version);
+	printf("[+] Version %s, developed by EDms0\n",version);
 
 	while ((c = getopt(argc, argv, "6hk:n:t:p:i:")) != -1) {
 		switch(c) {
