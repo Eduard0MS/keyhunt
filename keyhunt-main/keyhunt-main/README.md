@@ -32,13 +32,6 @@ You need to add `-t numberThreads` to get better speed
 
 You need to add `-t numberThreads` and `-k factor` to get better speed
 
-## Free Code
-
-This code is free of charge, see the licence for more details. https://github.com/albertobsd/keyhunt/blob/main/LICENSE
-
-Although this project is a hobby for me, it still involves a considerable amount of work.
-If you would like to support this project, please consider donating at https://github.com/albertobsd/keyhunt#donations.
-
 
 # Disclaimer
 
@@ -82,7 +75,7 @@ apt install libgmp-dev -y
 To clone the repository
 
 ```
-git clone https://github.com/albertobsd/keyhunt.git
+git clone https://github.com/Eduard0MS/keyhunt.git
 ```
 
 don't forget change to the keyhunt directory (But i'm not here to teach you linux commands)
@@ -148,7 +141,7 @@ To target that file we need to execute keyhunt with this line
 
 output:
 ```
-[+] Version 0.2.230430 Satoshi Quest, developed by AlbertoBSD
+[+] Version 0.2.230430 Satoshi Quest, developed by EdMS0
 [+] Mode address
 [+] Setting search for btc adddress
 [+] N = 0x100000000
@@ -189,7 +182,7 @@ Please note the change from `-r 1:FFFFFFFF` to `-b 66`, with -b you can specify 
 
 output:
 ```
-[+] Version 0.2.230430 Satoshi Quest, developed by AlbertoBSD
+[+] Version 0.2.230430 Satoshi Quest, developed by EdMS0
 [+] Mode address
 [+] Search compress only
 [+] Random mode
@@ -220,7 +213,7 @@ full command
 output:
 
 ```
-[+] Version 0.2.230430 Satoshi Quest, developed by AlbertoBSD
+[+] Version 0.2.230430 Satoshi Quest, developed by EdMS0
 [+] Mode vanity
 [+] Search compress only
 [+] Random mode
@@ -248,7 +241,7 @@ command to search multiple vanity addresses from a file `-f filename.txt`.
 
 Output:
 ```
-[+] Version 0.2.230430 Satoshi Quest, developed by AlbertoBSD
+[+] Version 0.2.230430 Satoshi Quest, developed by EdMS0
 [+] Mode vanity
 [+] Search compress only
 [+] Random mode
@@ -293,7 +286,7 @@ to target that file you need to execute the next line:
 output:
 
 ```
-[+] Version 0.2.230430 Satoshi Quest, developed by AlbertoBSD
+[+] Version 0.2.230430 Satoshi Quest, developed by EdMS0
 [+] Mode rmd160
 [+] Search compress only
 [+] N = 0x100000000
@@ -327,7 +320,7 @@ test your luck with the next file for the puzzle #66
 Output:
 
 ```
-[+] Version 0.2.230430 Satoshi Quest, developed by AlbertoBSD
+[+] Version 0.2.230430 Satoshi Quest, developed by EdMS0
 [+] Mode rmd160
 [+] Search compress only
 [+] Random mode
@@ -379,7 +372,7 @@ Now you can use keyhunt against some thousand values of the puzzle 40:
 Output:
 
 ```
-[+] Version 0.2.230430 Satoshi Quest, developed by AlbertoBSD
+[+] Version 0.2.230430 Satoshi Quest, developed by EdMS0
 [+] Mode xpoint
 [+] Threads : 4
 [+] N = 0x10000
@@ -414,7 +407,7 @@ Test you luck with the puzzle 120 with xpoint:
 Output:
 
 ```
-[+] Version 0.2.230430 Satoshi Quest, developed by AlbertoBSD
+[+] Version 0.2.230430 Satoshi Quest, developed by EdMS0
 [+] Mode xpoint
 [+] Threads : 4
 [+] Random mode
@@ -611,7 +604,7 @@ example of file creation:
 
 ```
 ./keyhunt -m bsgs -f tests/125.txt -R -b 125 -q -S -s 10
-[+] Version 0.2.230430 Satoshi Quest, developed by AlbertoBSD
+[+] Version 0.2.230430 Satoshi Quest, developed by EdMS0
 [+] Random mode
 [+] Quiet thread output
 [+] Stats output every 10 seconds
@@ -640,7 +633,7 @@ When we run the program for second time the files are now readed and the bP Poin
 
 ```
 ./keyhunt -m bsgs -f tests/125.txt -R -b 125 -q -S -s 10
-[+] Version 0.2.230430 Satoshi Quest, developed by AlbertoBSD
+[+] Version 0.2.230430 Satoshi Quest, developed by EdMS0
 [+] Random mode
 [+] Quiet thread output
 [+] Stats output every 10 seconds
@@ -676,7 +669,7 @@ Output:
 
 ```
 time ./keyhunt -m bsgs -f tests/test120.txt -b 120 -S
-[+] Version 0.2.230430 Satoshi Quest, developed by AlbertoBSD
+[+] Version 0.2.230430 Satoshi Quest, developed by EdMS0
 [+] Mode BSGS secuential
 [+] Opening file tests/test120.txt
 [+] Added 2 points from file
@@ -719,7 +712,7 @@ Line of execution in random mode `-R` or -B random
 Example Output:
 
 ```
-[+] Version 0.2.230507 Satoshi Quest, developed by AlbertoBSD
+[+] Version 0.2.230507 Satoshi Quest, developed by EdMS0
 [+] Quiet thread output
 [+] Stats output every 10 seconds
 [+] Random mode
@@ -755,7 +748,7 @@ Output:
 
 ```
 ./keyhunt -m bsgs -f tests/125.txt -b 125 -R -k 20 -S
-[+] Version 0.2.230430 Satoshi Quest, developed by AlbertoBSD
+[+] Version 0.2.230430 Satoshi Quest, developed by EdMS0
 [+] Random mode
 [+] K factor 20
 [+] Mode BSGS random
@@ -793,7 +786,7 @@ if you want to more Speed use a bigger -k value like 128, it will use some 2 GB 
 Output
 
 ```
-[+] Version 0.2.230430 Satoshi Quest, developed by AlbertoBSD
+[+] Version 0.2.230430 Satoshi Quest, developed by EdMS0
 [+] Random mode
 [+] K factor 128
 [+] Mode BSGS random
@@ -827,7 +820,7 @@ with **8** threads
 Output:
 
 ```
-[+] Version 0.2.230430 Satoshi Quest, developed by AlbertoBSD
+[+] Version 0.2.230430 Satoshi Quest, developed by EdMS0
 [+] Random mode
 [+] K factor 512
 [+] Quiet thread output
@@ -911,7 +904,7 @@ time ./keyhunt -m bsgs -t 6 -f tests/in.txt -r 49dccfd96dc5df56487436f5a1b18c4f5
 
 Output:
 ```
-[+] Version 0.2.230430 Satoshi Quest, developed by AlbertoBSD
+[+] Version 0.2.230430 Satoshi Quest, developed by EdMS0
 [+] Threads : 6
 [+] Matrix screen
 [+] Turn off stats output
@@ -1091,7 +1084,7 @@ time ./keyhunt -m bsgs -t 8 -f tests/63.pub -k 512 -s 0 -S -b 63
 output:
 
 ```
-[+] Version 0.2.230430 Satoshi Quest, developed by AlbertoBSD
+[+] Version 0.2.230430 Satoshi Quest, developed by EdMS0
 [+] Threads : 8
 [+] K factor 512
 [+] Turn off stats output
@@ -1161,8 +1154,6 @@ Change the values of k, n and t
 
 The publickeys should be found in some 2 minutes after the load of the files
 
-Change your n or k values according to your current memory and remember not exceed the k value of each N please check the table https://github.com/albertobsd/keyhunt#valid-n-and-k-values
-
 
 ## minikeys Mode
 
@@ -1184,7 +1175,7 @@ Command example:
 Output:
 
 ```
-[+] Version 0.2.230430 Satoshi Quest, developed by AlbertoBSD
+[+] Version 0.2.230430 Satoshi Quest, developed by EdMS0
 [+] Mode minikeys
 [+] N = 0x10000
 [+] Base Minikey : SG64GZqySYwBm9KxE1wJ28
@@ -1207,7 +1198,7 @@ random minikeys command
 ```
 
 ```
-[+] Version 0.2.230430 Satoshi Quest, developed by AlbertoBSD
+[+] Version 0.2.230430 Satoshi Quest, developed by EdMS0
 [+] Mode minikeys
 [+] Quiet thread output
 [+] Random mode
@@ -1238,7 +1229,7 @@ command:
 output:
 
 ```
-[+] Version 0.2.230430 Satoshi Quest, developed by AlbertoBSD
+[+] Version 0.2.230430 Satoshi Quest, developed by EdMS0
 [+] Setting search for ETH adddress.
 [+] Matrix screen
 [+] N = 0x100000000
@@ -1308,38 +1299,9 @@ R: Yes use only `-S` always that you run the program it works for:
 `bsgs`, `address`, `rmd160`, `minikeys`, `xpoint` it don't work for `vanity`
 The files will be generated automatically in the current directory
 
-- Why the speed for bsgs say 0 keys/s
-R: this was asked here https://github.com/albertobsd/keyhunt/issues/69 and 
-here https://github.com/albertobsd/keyhunt/issues/108 and also others in telegram
-
-Please check the video that i made to answer that https://youtu.be/MVby8mYNxbI
 
 - Is available for Windows?
 R: It can be compiled with mingw, but i strongly recomend WSL with Ubuntu for windows 10
-
-Updated: 
-Yes thanks to @kanhavishva
-Available in: https://github.com/kanhavishva/keyhunt
-
-Also, thanks to @WanderingPhilosopher
-Available in: https://github.com/WanderingPhilosopher/keyhunt
-
-Also thanks to @XopMC
-Available in: https://github.com/XopMC/keyhunt-win
-
-
-## Thanks
-
-This program was possible thanks to 
-- IceLand
-- kanhavishva
-- XopMC
-- WanderingPhilosopher
-- Malboro Man
-- NetSec
-- Jean Luc Pons
-- All the group of CryptoHunters that made this program possible
-- All the users that tested it, report bugs, requested improvements and shared his knowledge.
 
 
 ## Donations
