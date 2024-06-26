@@ -1,5 +1,9 @@
 # keys???????????????????????????????
 
+## Donations
+- Help me buy my video card.
+- BTC: bc1qe8srhsjv06f0s6e7n3dwsttlcz94cvr4nnel49
+
 Tool for hunt privatekeys for crypto currencies that use secp256k1 elliptic curve
 
 Post: https://bitcointalk.org/index.php?topic=5322040.0
@@ -1305,20 +1309,13 @@ R: It can be compiled with mingw, but i strongly recomend WSL with Ubuntu for wi
 
 
 ## Donations
-
-- BTC: 1Coffee1jV4gB5gaXfHgSHDz9xx9QSECVW
-- ETH: 0x6222978c984C22d21b11b5b6b0Dd839C75821069
-- DOGE: DKAG4g2HwVFCLzs7YWdgtcsK6v5jym1ErV
+- Help me buy my video card.
+- BTC: bc1qe8srhsjv06f0s6e7n3dwsttlcz94cvr4nnel49
 
 All the donations will be use only for two things:
 
 - Native Windows version with 0 external dependencies.
 - Get an affordable desktop computer with decent GPU not high end, just to start the GPU version.
 
-## Testnet
-
-I also need to make some test in testnet network if you have some Testnet balance can you help me with donations in my testnet address:
-
-Address: msKcxhizYWVvxCACFEG4GCSK1xYrEkib5A
 
 Thank you.
