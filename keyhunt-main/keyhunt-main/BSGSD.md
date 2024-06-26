@@ -50,7 +50,7 @@ The server will close the Conection inmediatly after send that line, also in cas
 Run the server in one terminal:
 ```
 ./bsgsd -k 4096 -t 8 -6
-[+] Version 0.2.230519 Satoshi Quest, developed by AlbertoBSD
+[+] Version 0.2.230519 Satoshi Quest, developed by EDMS0
 [+] K factor 4096
 [+] Threads : 8
 [W] Skipping checksums on files
