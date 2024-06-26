@@ -1,6 +1,6 @@
 /*
 Develop by Alberto
-email: albertobsd@gmail.com
+email: eduardomsx1@gmail.com
 */
 
 #include <stdio.h>
