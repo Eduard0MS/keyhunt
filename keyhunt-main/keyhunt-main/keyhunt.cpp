@@ -1,6 +1,6 @@
 /*
-Develop by Alberto
-email: albertobsd@gmail.com
+Develop by EDms0
+email: eduardomsx1@gmail.com
 */
 
 #include <stdio.h>
